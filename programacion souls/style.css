@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+
+.cn{
+    color: orange;
+    &:hover{
+        color:orangered;
+}
+
+.img{
+    height: 100px;
+    width: 100px;
+}
+}
+
+.soul img{
+    padding: 5px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    margin: 0px 0 10px 0;
+    background-color: 191919;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.soul{
+    position: relative;
+    width: 100%;
+    height: 50%;
+    background-color: #212529;
+    border-radius: 20px;
+    padding: 10px;
+    flex-direction: column;
+    grid-template-columns: repeat(2,1fr);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: orange;
+    text-align: center;
+    transition: ease-in-out 1s;
+    margin: 2em;
+    &:hover{
+        box-shadow: 0 0 50px orange ;
+        }
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(204, 127, 255, 0);
+    border-radius: 0 0 25px 25px;
+    -webkit-backdrop-filter: blur(1px);
+    backdrop-filter: blur(1px);
+    position: fixed;
+}
+
+body{
+    background-color: #191919;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+nav ul a{ 
+    text-decoration: none;
+    padding: 1em;
+    font-weight: bolder;
+
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.punto{
+    width: 150px;
+    height: 100px;
+}
+
+.marca{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+   
+}
+
+.arriba{
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: orange;
+    
+
+}
+
+.exp{
+    width: 50%;
+    color: orange;
+    text-align: center;
+        width: 70%;
+        font-size: 30px;
+        padding: 10px;
+        font-family: 'Delicious Handrawn';
+}
+
+.texto{
+    height: 100%;
+}
+
+.link{
+    width: 100%;
+    height: 100%;
+
+}
+.botonchito{
+    background-color: #191919;
+}
+
+.foto{
+    width: 100%;
+
+}
+
+@media(max-width:800px){
+    .cuad{
+        display: flex;
+        flex-direction: column;
+    
+    }
+}
